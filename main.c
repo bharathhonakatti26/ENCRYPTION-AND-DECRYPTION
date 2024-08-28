@@ -15,7 +15,7 @@ int create_encrypted_file (){
     
     char sentences[number_of_letters];
 
-    printf("\n\t\t\tEnter the text : ");
+    printf("\n\t\t\tEnter the text(without Spacing)  : ");
     scanf("%s" , sentences);
 
     srand(time(NULL));
@@ -52,7 +52,7 @@ int edit_encrypted_file(){
     scanf("%d" , &number_of_letters);
 
     char sentences[number_of_letters];
-    printf("\n\t\t\tEnter the text : ");
+    printf("\n\t\t\tEnter the text(without Spacing) : ");
     scanf("%s" , sentences);
 
     printf("\n\t\t\t***** Successfully Edited Encrypted File *****");
